@@ -11,7 +11,7 @@
   <summary>Answer here</summary>
   Function Components - these return functions.
 
-  Class Components - a javascript class that extends a React.Component. must have a render method.
+  Class Components - a javascript class that extends a React.Component. must have a render method. Can set state inside of it.
 </details>
 
 ## Describe the differences between class and function component?
@@ -55,4 +55,21 @@
 <details>
   <summary>Answer here</summary>
   setState
+</details>
+
+## What is the relationship between components in React?
+
+<details>
+  <summary>Answer here</summary>
+  parent-child relationship tree like relationship where props are passed from the parents and used in the components
+</details>
+
+## When does a component render?
+
+<details>
+  <summary>Answer here</summary>
+  1. When the state changes
+  1. Parent’s props changes
+  1. Component mounts the first time(when the page loads)
+
 </details>
