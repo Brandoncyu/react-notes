@@ -87,8 +87,7 @@
 <details>
     <summary>Answer here</summary>
 
-
-    Make the store available to all container components in the application without passing it explicitly. You only need to use it once when you render the root component:
+    Make the store available to all container components in the application without passing it explicitly. You only need to use it once when you render the root component.
 </details>
 
 
