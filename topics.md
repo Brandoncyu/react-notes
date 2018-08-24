@@ -87,26 +87,8 @@
 <details>
     <summary>Answer here</summary>
 
-    ```javascript
-        import React from 'react';
-        import ReactDOM from 'react-dom';
-        import App from './components/App';
-        import { Provider } from 'react-redux'
-        import store from './store'
-        import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-        import registerServiceWorker from './registerServiceWorker'
 
-
-        ReactDOM.render(
-        <Provider store={store()}>
-            <App />
-        </Provider>,
-        document.getElementById('root')
-        );
-        registerServiceWorker()
-
-    ```
-    make the store available to all container components in the application without passing it explicitly. You only need to use it once when you render the root component:
+    Make the store available to all container components in the application without passing it explicitly. You only need to use it once when you render the root component:
 </details>
 
 
